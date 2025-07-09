@@ -1,0 +1,56 @@
+/* Footer.css */
+.app-footer {
+  width: 100vw;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 0;
+}
+
+.footer-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer-desc {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+.footer-divider {
+  width: 80%;
+  margin: 1rem auto;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--primary-color);
+}
+
+/* Dark mode support */
+body.dark-mode .app-footer {
+  background-color: #1e1e1e;
+  border-top-color: rgba(255, 255, 255, 0.08);
+}

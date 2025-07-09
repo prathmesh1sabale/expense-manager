@@ -1,0 +1,53 @@
+/* TransactionTable.css */
+
+.transaction-table {
+  margin-top: 2rem;
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background-color: var(--card-bg);
+  transition: all 0.3s ease;
+}
+
+.transaction-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+}
+
+.transaction-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+.transaction-table tbody td {
+  text-align: center;
+  padding: 0.65rem;
+  font-size: 0.95rem;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+.transaction-table tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.transaction-table tfoot th {
+  text-align: center;
+  background-color: #f1f3f5;
+  font-weight: 600;
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-danger {
+  color: var(--danger-color);
+}
